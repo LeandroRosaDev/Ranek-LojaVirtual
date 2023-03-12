@@ -7,7 +7,7 @@ export const Header = () => {
     <nav className={styles.header}>
       <ul>
         <li>
-          <NavLink className={styles.link} to="/" end>
+          <NavLink className={styles.link} to="/Ranek-LojaVirtual" end>
             Produtos
           </NavLink>
         </li>
