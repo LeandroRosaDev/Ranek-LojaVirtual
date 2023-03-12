@@ -17,7 +17,10 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/Ranek-LojaVirtual" element={<Produtos />} />
-            <Route path="produto/:id" element={<Produto />} />
+            <Route
+              path="/Ranek-LojaVirtual/produto/:id"
+              element={<Produto />}
+            />
             <Route path="contato" element={<Contato />} />
           </Routes>
         </div>
