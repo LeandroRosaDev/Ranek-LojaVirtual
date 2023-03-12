@@ -16,7 +16,7 @@ function App() {
         <ScrollToTop />
         <div className="content">
           <Routes>
-            <Route path="/Ranek|LojaVirtual" element={<Produtos />} />
+            <Route path="/Ranek-LojaVirtual" element={<Produtos />} />
             <Route path="produto/:id" element={<Produto />} />
             <Route path="contato" element={<Contato />} />
           </Routes>
